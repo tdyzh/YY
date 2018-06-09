@@ -1,0 +1,324 @@
+. * {
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    height: 600px;
+    margin: 0;
+    padding: 108px 0;
+    background: #192314;
+    position: relative;
+}
+
+.header-box {
+    width: 808px;
+    height: 622px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-desktop.jpg");
+    background-size: 800px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    float: right;
+}
+
+.box {
+    width: 512px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.box2 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-menu {
+    height: 57px;
+    width: 1300px;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    height: 40px;
+    width: 90px;
+    padding: 20px 0 0 0;
+    text-align: right;
+    background: url("product.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 20px;
+    color: #f9f9f8;
+}
+
+.center {
+    width: 250px;
+    height: 100%;
+    line-height: 57px;
+    text-align: center;
+    font-size: 30px;
+    color: #f9f9f8;
+}
+
+.right {
+    width: 90px;
+    height: 40px;
+    padding: 20px 0 0 0;
+    text-align: left;
+    background: url("menu.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 20px;
+    color: #f9f9f8;
+
+}
+
+.container2 {
+    width: 1300px;
+    height: 400px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/harmonies/1350/img-bg-1350.jpg");
+}
+
+.container3 {
+    width: 760px;
+    height: 313px;
+    margin: 0 auto;
+    z-index: 100;
+    margin-top: -40px;
+    position: relative;
+}
+
+.pic {
+    width: 203px;
+    height: 313px;
+    padding: 15px 12px 25px 20px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beovision-eclipse/beovision-eclipse-frontpage-brass-smoked-oak-2.jpg");
+    float: left;
+    left: 100px;
+    background-size: contain;
+    color: #fff;
+
+}
+
+.pic2 {
+    width: 203px;
+    height: 313px;
+    padding: 15px 12px 25px 20px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beoplay-p6/beoplay-p6-8.jpg");
+    float: left;
+    left: 100px;
+    background-size: contain;
+    color: #fff;
+
+}
+
+.pic3 {
+    width: 203px;
+    height: 313px;
+    padding: 15px 12px 25px 20px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/earset/earset-subtile1.jpg");
+    float: left;
+    left: 100px;
+    background-size: contain;
+    color: #fff;
+}
+
+.container4 {
+    width: 1300px;
+    height: 200px;
+    padding: 70px 0 0 0;
+    background-color: #fff;
+    text-align: center;
+    color: #505050;
+    font-size: 20px;
+}
+
+.produce {
+    width: 1300px;
+    height: 1310px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic4 {
+    width: 356px;
+    height: 374px;
+    padding: 31px 40px;
+    position: relative;
+    left: 200px;
+    color: #fff;
+}
+
+.pic4:nth-child(1) {
+    background-image: url("beosound-shape-mobile.jpg");
+}
+
+.pic4:nth-child(2) {
+    background-image: url("beovision-eclipse-mobile.jpg");
+}
+
+.pic4:nth-child(3) {
+    background-image: url("beolab-50-mobile.jpg");
+}
+
+.pic4:nth-child(4) {
+    background-image: url("beoplay-p6-categories-mobile-2.jpg");
+}
+
+.pic4:nth-child(5) {
+    background-image: url("beosound-core-mobile.jpg");
+}
+
+.pic4:nth-child(6) {
+    background-image: url("beoplay-h9i-mobile.jpg");
+}
+
+.container5 {
+    width: 1300px;
+    height: 300px;
+    padding: 70px 0 0 0;
+    background-color: #fff;
+    text-align: center;
+    color: #505050;
+    font-size: 20px;
+}
+
+.produce1 {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+}
+.produce2{
+    width: 1300px;
+    display:flex;
+}
+.pic5 {
+    width: 500px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic5:nth-child(1) {
+    background-image: url("design-as-a-group-effort-01.jpg");
+}
+
+.pic5:nth-child(2) {
+    background-image: url("the-krane.jpg");
+}
+
+.pic6 {
+    width: 1000px;
+    height: 400px;
+    background-image: url("harmonies-story.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.introduce {
+    width: 1000px;
+    color: #5f5757;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+    margin: 0 30px 0 80px;
+}
+
+.introduce h4{
+     margin: 0 30px 0 0;
+    padding: 0 30px;
+
+}
+
+.produce3{
+    width: 1000px;
+    height:500px;
+    padding: 150px 0 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.news1 {
+    width: 400px;
+    height: 500px;
+    background-image: url("($U9~REDXBWZNR_@O8P6}RP.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #5f5757;
+    text-align: center;
+    font-size: 20px;
+}
+.border{
+    width: 350px;
+    height: 60px;
+    padding: 6px 12px;
+    border-style: 1px solid;
+    position: relative;
+    left: 10px;
+}
+.border1{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    background-color:rgba(0,0,0,0.1);
+}
+
+.news2 {
+    width: 400px;
+    height: 500px;
+    margin: 0 0 0 80px;
+    background-image: url("cyyxli123.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #5f5757;
+    text-align: center;
+    font-size: 20px;
+}
+
+.border2 {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    background-color:rgba(0,0,0,0.1);
+}
+.produce4{
+    width: 1300px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 150px;
+    height: 20px;
+    margin: 0 0 -20px 0;
+    background-image: url("qq789.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+}
+.info h5{
+    margin: 0 0 -50px 0;
+}
+
+.info1{
+    margin:0 0 0 700px;
+    float: right;
+}
+.info1 a{
+    color: #000;
+    text-decoration: none;
+}
